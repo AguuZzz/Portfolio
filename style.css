@@ -1,0 +1,231 @@
+
+
+
+body {
+    background: linear-gradient(0deg, rgba(22, 22, 22, 1) 0%, rgba(5, 3, 3, 1) 100%);
+}
+
+body a,
+h1,
+p {
+    color: white;
+}
+
+html::-webkit-scrollbar {
+    background-color: #000;
+    width: 12px;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #e40606), color-stop(1, #8b0303));
+    border-radius: 10px;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #20202380;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+
+.icons {
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#contenedor {
+    background-color: black;
+}
+
+.recuadros {
+    border-radius: 5px;
+    margin: 93px auto;
+    width: 1322px;
+    height: 1074px;
+    padding: 1rem;
+    position: relative;
+    padding: 3px;
+}
+
+.r {
+    border-radius: 15px;
+    border: 3px solid #ff00006b;
+}
+
+.r1 {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    height: 286px;
+    width: 622px;
+}
+
+.r2 {
+    position: absolute;
+    top: 5%;
+    left: 50.7%;
+    height: 286px;
+    width: 298px;
+}
+
+.r3 {
+    position: absolute;
+    top: 36%;
+    left: 26.4%;
+    height: 288px;
+    width: 621px;
+}
+
+.r4 {
+    position: absolute;
+    top: 36%;
+    left: 1%;
+    height: 286px;
+    width: 298px;
+}
+
+.r5 {
+    position: absolute;
+    top: 66%;
+    left: 1%;
+    height: 286px;
+    width: 298px;
+}
+
+.r6 {
+    right: 1%;
+    position: absolute;
+    top: 66%;
+    height: 286px;
+    width: 298px;
+}
+
+.r7 {
+    position: absolute;
+    top: 66%;
+    left: 25.7%;
+    height: 286px;
+    width: 298px;
+}
+
+.r8 {
+    right: 25.7%;
+    position: absolute;
+    top: 66%;
+    height: 286px;
+    width: 298px;
+}
+
+.r9 {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 76%;
+    height: 88px;
+    width: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reloj {
+    display: inline-block;
+}
+
+.recuadrosinferiores {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.recuadrosinferiores .fa-brands {
+    left: 25%;
+    color: #e76452;
+    top: 34%;
+    position: absolute;
+    font-size: 100px;
+}
+
+.recuadrosinferiores .fa-solid {
+    left: 30%;
+    color: #e76452;
+    top: 34%;
+    position: absolute;
+    font-size: 100px;
+}
+
+.proyectos {
+    border-radius: 5px;
+    margin: 93px auto;
+    width: 1322px;
+    height: 1794px;
+    padding: 1rem;
+    position: relative;
+    padding: 3px;
+}
+
+.r10 {
+    position: absolute;
+    top: 130px;
+    height: 585px;
+    width: 1335px;
+}
+
+.r11 {
+    position: absolute;
+    top: 800px;
+    height: 900px;
+    width: 1335px;
+}
+
+.proyectostitulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
