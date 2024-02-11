@@ -93,6 +93,11 @@ html::-webkit-scrollbar-thumb {
 .r {
     border-radius: 15px;
     border: 3px solid #ff00006b;
+    transition: transform 0.3s ease;
+}
+
+.r:hover {
+    transform: scale(1.03);
 }
 
 .r1 {
