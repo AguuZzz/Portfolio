@@ -124,6 +124,34 @@ html::-webkit-scrollbar-thumb {
     width: 621px;
 }
 
+.botongithub {
+    top: 78%;
+    left: 34%;
+    position: absolute;
+    color: white;
+    border-radius: 0px 0px 172px 172px;
+    border: red solid 3px;
+    background-color: black;
+    height: 40px;
+    width: 189px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botongithub:hover {
+    background-color: red;
+    color: black;
+    animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+
 .r4 {
     position: absolute;
     top: 36%;
