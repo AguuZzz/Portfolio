@@ -246,15 +246,17 @@ html::-webkit-scrollbar-thumb {
 .r10 {
     position: absolute;
     top: 130px;
+    left: 2%;
     height: 585px;
-    width: 1335px;
+    width: 1277px;
 }
 
 .r11 {
     position: absolute;
     top: 800px;
+    left: 2%;
     height: 900px;
-    width: 1335px;
+    width: 1277px;
 }
 
 .proyectostitulos {
