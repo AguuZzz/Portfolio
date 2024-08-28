@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #333;
+
+}
+
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+::-webkit-resizer { background-color: #666;}
+
+.linkobj{
+  cursor: pointer; 
+}
+
+
+.bodypres{
+  position: relative;
+  display: flex;
+  left: 15%; 
+  width: 70%; 
+  height: 401px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imgBody{
+  height: 290px;
+  border-radius: 329px;
+  position: relative;
+  left: -48px;
+  border: 3px solid #F31260;
+}
+
+.textanimation {
+    position: relative;
+    left: 80px;
+    width: 330px;
+}
+
+.subtitulos {
+  font-size: 30px;
+  width: 191px;
+  position: relative;
+  left: 45%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 100px;
+}
+
+.aboutme, .technology {
+  color: #c3c3c3;
+  background-color: #18181b;
+  font-size: 23px;
+  border: 19px solid #18181b;
+  border-radius: 14px;
+  width: 563px;
+  margin-bottom: 100px;
+}
+
+.aboutme {
+  height: 507px;
+}
+
+.wavehand {
+  animation-name: wave-animation;  
+  animation-duration: 2.5s;       
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;       
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+
+.technology {
+    margin: 54px 2px;
+    height: 382px;  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    height: 114px;
+    width: 114px;
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.logo:hover {
+    border-color: #c0c0c0;
+}
+
+.logo.python:hover {
+    color: #3776AB; 
+}
+
+.logo.react:hover {
+    color: #61DBFB; 
+}
+
+.logo.javascript:hover {
+    color: #F7DF1E; 
+}
+
+.logo.terminal:hover {
+    color: #4D4D4D; 
+}
+
+.logo.css:hover {
+    color: #264DE4; 
+}
+
+.logo.html:hover {
+    color: #E34F26; 
+}
+
+.logo.linux:hover {
+    color: #264DE4;
+}
+
+.logo > svg {
+    width: 20px;
+}
+
+
+
+.cards {
+  width: 70%;
+  display: grid!important;
+  grid-template-columns: repeat(3, 1fr)!important;
+  gap: 74px!important;
+  padding: 20px!important;
+  position: relative;
+  left: 15%;
+}
+
+.py-4 {
+  width: 250px;
+}
